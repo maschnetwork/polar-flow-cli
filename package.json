@@ -1,0 +1,22 @@
+{
+  "name": "polarapi",
+  "version": "2.0.0",
+  "description": "Polar running data CLI",
+  "bin": {
+    "polar": "./bin/polar.js"
+  },
+  "scripts": {
+    "import": "node src/import.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "open": "^11.0.0"
+  }
+}

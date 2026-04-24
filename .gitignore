@@ -1,0 +1,5 @@
+node_modules/
+.api_creds
+polar_data.db
+polar_data.db-wal
+polar_data.db-shm
