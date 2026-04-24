@@ -1,4 +1,4 @@
-# Polar CLI
+# Polar Flow CLI
 
 A command-line tool for syncing and analyzing running data from Polar watches. Tracks training metrics, classifies workouts, recommends next sessions, and monitors progress over time.
 
@@ -20,11 +20,6 @@ A command-line tool for syncing and analyzing running data from Polar watches. T
    <your-client-id>
    Client Secret
    <your-client-secret>
-   ```
-   Or use key=value format:
-   ```
-   client_id=<your-client-id>
-   client_secret=<your-client-secret>
    ```
 
 3. Install and link:
