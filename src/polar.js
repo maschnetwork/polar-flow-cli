@@ -76,7 +76,8 @@ async function syncExercises() {
       ex.id, JSON.stringify(ex), ex.sport, ex.detailed_sport_info,
       ex.start_time, ex.duration, ex.distance || 0, ex.calories || 0,
       ex.heart_rate?.average || null, ex.heart_rate?.maximum || null,
-      ex.training_load || null, ex['running-index'] || null,
+      ex.training_load || ex.exercises?.[0]?.trainingLoadReport?.cardioLoad || null,
+      ex.running_index || ex['running-index'] || ex.runningIndex || null,
       ex.has_route ? 1 : 0
     );
 
